@@ -1,4 +1,4 @@
-name: discord message
+name: gtalk message
 on: [push]
 jobs:
 

@@ -9,7 +9,7 @@
 Send custom message as below
 
 ```yaml
-name: message
+name: gtalk message
 on: [push]
 jobs:
 
