@@ -1,0 +1,24 @@
+name: discord message
+on: [push]
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: send custom message with args
+      uses: appleboy/gtalk-action@master
+      with:
+        username: ${{ secrets.USERNAME }}
+        oauth_token: ${{ secrets.OAUTH_TOKEN }}
+        to: ${{ secrets.TO}}
+        args: The ${{ github.event_name }} event triggered first step.
+
+    - name: send custo, message
+      uses: appleboy/discord-action@master
+      with:
+        username: ${{ secrets.USERNAME }}
+        oauth_token: ${{ secrets.OAUTH_TOKEN }}
+        to: ${{ secrets.TO}}
+        message: I Love You.
