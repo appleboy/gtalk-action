@@ -4,7 +4,7 @@
 
 [![Actions Status](https://github.com/appleboy/gtalk-action/workflows/gtalk%20message/badge.svg)](https://github.com/appleboy/gtalk-action/actions)
 
-![logo](./images/log.png)
+![logo](./images/logo.png)
 
 ## Usage
 
