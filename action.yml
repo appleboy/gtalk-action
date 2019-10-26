@@ -1,0 +1,21 @@
+name: 'Gtalk Message Notify'
+description: 'Sending a Gtalk message'
+author: 'Bo-Yi Wu'
+inputs:
+  username:
+    description: 'gtalk user email'
+    required: true
+  oauth_token:
+    description: 'AuthToken provides go-xmpp with the required OAuth2 token used to authenticate.'
+    required: true
+  message:
+    description: 'message - optional.'
+  to:
+    description: 'send message to user'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'message-square'
+  color: 'gray-dark'
