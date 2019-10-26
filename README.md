@@ -33,7 +33,7 @@ jobs:
 ## Input variables
 
 * username - required. gtalk user email.
-* oauth_token - required. AuthToken provides go-xmpp with the required OAuth2 token used to authenticate.
+* oauth_token - required. AuthToken provides go-xmpp with the required OAuth2 token used to authenticate. Get token from [OAuth Playground](https://developers.google.com/oauthplayground/).
 * to - required. send message to user.
 * message - optional. custom message.
 
