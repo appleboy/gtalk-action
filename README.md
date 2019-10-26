@@ -2,6 +2,8 @@
 
 [GitHub Action](https://developer.github.com/actions/) for sending a [Gtalk](https://developers.google.com/talk) notification message. You can get the OAuth token in [Google playground](https://developers.google.com/oauthplayground/). Please set the scope as `https://www.googleapis.com/auth/googletalk`.
 
+[![Actions Status](https://github.com/appleboy/gtalk-action/workflows/gtalk%20message/badge.svg)](https://github.com/appleboy/gtalk-action/actions
+
 ![logo](./images/log.png)
 
 ## Usage
