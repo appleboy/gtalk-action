@@ -15,8 +15,8 @@ jobs:
         to: ${{ secrets.TO}}
         args: The ${{ github.event_name }} event triggered first step.
 
-    - name: send custo, message
-      uses: appleboy/discord-action@master
+    - name: send custom message
+      uses: appleboy/gtalk-action@master
       with:
         username: ${{ secrets.USERNAME }}
         oauth_token: ${{ secrets.OAUTH_TOKEN }}
